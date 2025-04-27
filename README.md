@@ -1,6 +1,6 @@
 # Thesis Game Prototype; Student: Khadeejah Saeed; ID: 19220863.
 
-This repository contains the game prototype created for my dissertation.
+This repository contains the Arabic localised game prototype created for my dissertation.
 
 ## Folder Structure
 
@@ -27,16 +27,11 @@ pip install babel
 
 ## Running the Game
 
+If you are using Sublime Text (preferred) or another IDE:
+
 1. Open your terminal.
 2. Navigate to the project folder: cd path/to/Prototype_KhadeejahSaeed_19220863
-3. Run the game: python main_game.py
-
-
-If you are using Sublime Text (preferred) or Visual Studio Code:
-
-- Open the `Prototype_KhadeejahSaeed_19220863` folder in your editor.
-- Open `main_game.py`.
-- Run it using the terminal in the editor or an external terminal.
+3. Run the game: python main_game.py (Or press Ctrl + B in Sublime Text)
 
 
 ## Note on Language
