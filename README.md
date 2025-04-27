@@ -1,74 +1,46 @@
-<header>
+# Thesis Game Prototype; Student: Khadeejah Saeed; ID: 19220863.
 
-<!--
-  <<< Author notes: Course header >>>
-  Include a 1280×640 image, course title in sentence case, and a concise description in emphasis.
-  In your repository settings: enable template repository, add your 1280×640 social image, auto delete head branches.
-  Add your open source license, GitHub uses MIT license.
--->
+This repository contains the game prototype created for my dissertation.
 
-# Introduction to GitHub
+## Folder Structure
 
-_Get started using GitHub in less than an hour._
+- `main_game.py` – Main file to run the game.
+- `setup_leaderboard_db.py` – Script to create and initialise the leaderboard database.
+- `leaderboard.db` – SQLite database file used to save player's score.
+- `ar.json` – Contains Arabic translations.
+- `translations.json` – Folder for both EN and AR translations.
+- `img` – Game images and icons.
+- `audio` – Sound effects and music files.
+- `level1_data.csv` – Stores the tile map for the level's background.
+- `Amiri-Regular.ttf` – Arabic font used for rendering Arabic text correctly.
 
-</header>
 
-<!--
-  <<< Author notes: Step 3 >>>
-  Just a historic note: the previous version of this step forced the learner
-  to write a pull request description,
-  checked that `main` was the receiving branch,
-  and that the file was named correctly.
--->
+## Required Installations
 
-## Step 3: Open a pull request
+Before running the game, ensure you have Python 3.13.1 installed. Then install the following libraries by running these commands in your terminal:
 
-_Nice work making that commit! :sparkles:_
+pip install pygame
+pip install arabic_reshaper
+pip install python-bidi
+pip install babel
 
-Now that you have made a change to the project and created a commit, it’s time to share your proposed change through a pull request!
 
-**What is a pull request?**: Collaboration happens on a _[pull request](https://docs.github.com/en/get-started/quickstart/github-glossary#pull-request)_. The pull request shows the changes in your branch to other people and allows people to accept, reject, or suggest additional changes to your branch. In a side by side comparison, this pull request is going to keep the changes you just made on your branch and propose applying them to the `main` project branch. For more information about pull requests, see "[About pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests)".
+## Running the Game
 
-### :keyboard: Activity: Create a pull request
+1. Open your terminal.
+2. Navigate to the project folder: cd path/to/Prototype_KhadeejahSaeed_19220863
+3. Run the game: python main_game.py
 
-You may have noticed after your commit that a message displayed indicating your recent push to your branch and providing a button that says **Compare & pull request**.
 
-![screenshot of message and button](/images/compare-and-pull-request.png)
+If you are using Sublime Text (preferred) or Visual Studio Code:
 
-To create a pull request automatically, click **Compare & pull request**, and then skip to step 6 below. If you don't click the button, the instructions below walk you through manually setting up the pull request.
+- Open the `Prototype_KhadeejahSaeed_19220863` folder in your editor.
+- Open `main_game.py`.
+- Run it using the terminal in the editor or an external terminal.
 
-1. Click on the **Pull requests** tab in the header menu of your repository.
-2. Click **New pull request**.
-3. In the **base:** dropdown, make sure **main** is selected.
-4. Select the **compare:** dropdown, and click `my-first-branch`.
 
-   ![screenshot showing both branch selections](/images/pull-request-branches.png)
+## Note on Language
 
-5. Click **Create pull request**.
-6. Enter a title for your pull request. By default, the title will automatically be the name of your branch. For this exercise, let's edit the field to say `Add my first file`.
-7. The next field helps you provide a description of the changes you made. Here, you can add a description of what you’ve accomplished so far. As a reminder, you have: created a new branch, created a file, and made a commit.
+Due to technical constraints, the game opens with the default language set to English. This is to ensure that non-Arabic speaking users can understand the "Enter your name" input prompt.
 
-   ![screenshot showing pull request](/images/Pull-request-description.png)
-
-8. Click **Create pull request**. You will automatically be navigated to your new pull request.
-9. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
-
-> [!NOTE]
-> You may see evidence of GitHub Actions running on the tab with the pull request opened! The image below shows a line you might see on your pull request after the Action finishes running.
-> 
-> ![screenshot of an example of an actions line](/images/Actions-to-step-4.png)
-
-<footer>
-
-<!--
-  <<< Author notes: Footer >>>
-  Add a link to get support, GitHub status page, code of conduct, license link.
--->
-
----
-
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/introduction-to-github) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
-
-&copy; 2024 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
-
-</footer>
+However, if you would like to view the correct Arabic text rendering achieved in the prototype for the "Enter your name" prompt, you can manually change the default language by changing the following line of code (Line 165 in the code) to: current_language = "ar"
