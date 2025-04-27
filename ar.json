@@ -1,0 +1,18 @@
+{
+    "start": "ابدأ",
+    "restart": "إعادة تشغيل",
+    "quit": "إنهاء",
+    "language": "اللغة",
+    "leaderboard": "لوحة الصدارة",
+    "arabic": "العربية",
+    "english": "الإنجليزية",
+    "ammo": "ذخيرة:",
+    "enter_name": "أدخل اسمك:",
+    "welcome": "مرحباً، {name}!",
+    "rank": "الترتيب",
+    "name": "الاسم",
+    "score": "النقاط",
+    "timestamp": "التاريخ",
+    "well_done": "أحسنت!",
+    "your_score": "نقاطك: {}"
+}

@@ -1,0 +1,40 @@
+{
+    "en": {
+        "start": "Start",
+        "restart": "Restart",
+        "quit": "Quit",
+        "language": "Language",
+        "leaderboard": "Leaderboard",
+        "arabic": "Arabic",
+        "english": "English",
+        "ammo": "AMMO",
+        "enter_name": "Enter your name:",
+        "welcome": "Welcome, {name}!",
+        "rank": "Rank",
+        "name": "Name",
+        "score": "Score",
+        "timestamp": "Timestamp",
+        "well_done": "Well Done!",
+        "your_score": "Your score: {}"
+        },
+    
+    "ar": {
+        "start": "ابدأ",
+        "restart": "إعادة التشغيل",
+        "quit": "خروج",
+        "language": "اللغة",
+        "leaderboard": "لوحة الصدارة",
+        "arabic": "العربية",
+        "english": "الإنجليزية",
+        "ammo": "ذخيرة",
+        "enter_name": "أدخل اسمك:",
+        "welcome": "مرحباً، {name}!",
+        "rank": "الترتيب",
+        "name": "الاسم",
+        "score": "النقاط",
+        "timestamp": "التاريخ",
+        "well_done": "أحسنت!",
+        "your_score": "نقاطك: {}"
+          
+    }
+}

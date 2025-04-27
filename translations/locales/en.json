@@ -1,0 +1,12 @@
+{
+        "start": "Start",
+        "restart": "Restart",
+        "quit": "Quit",
+        "language": "Language",
+        "leaderboard": "Leaderboard",
+        "arabic": "Arabic",
+        "english": "English",
+        "ammo" : "AMMO",
+        "enter_name": "Enter your name:",
+        "welcome": "Welcome, {name}!"
+}
