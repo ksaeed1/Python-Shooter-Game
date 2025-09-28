@@ -53,11 +53,12 @@ However, if you would like to view the correct Arabic text rendering achieved in
   <img width="550" height="350" alt="Screenshot 2025-04-18 163148" src="https://github.com/user-attachments/assets/702f3c1d-50c5-41c8-81dc-7623526038c2" />
 </p>
 
-## Leaderboard Screen
+## Leaderboard Screens
 <p align="center">
   <img width="597" height="341" alt="Screenshot 2025-04-08 195012" src="https://github.com/user-attachments/assets/f21bf5de-90de-4899-9a93-2ab795debad2" />
   </p>
 <p align="center">
   <img width="597" height="341" alt="Screenshot 2025-04-12 185036" src="https://github.com/user-attachments/assets/3d798546-e8d5-49b6-9687-27cb22af81d2" />
 </p>
+
 
