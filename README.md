@@ -41,14 +41,14 @@ Due to technical constraints, the game opens with the default language set to En
 
 However, if you would like to view the correct Arabic text rendering achieved in the prototype for the "Enter your name" prompt, you can manually change the default language by changing the following line of code (Line 165 in the code) to: current_language = "ar"
 
+---
+
 ## Game Screenshots
 
-## English Localised Menu Screen
+## Menu Screens
 <p align="center">
   <img width="550" height="350" alt="Screenshot 2025-03-13 212100" src="https://github.com/user-attachments/assets/14e9660a-3047-44b8-ac3e-619df30d2630" />
 </p>
-
-## Arabic Localised Menu Screen
 <p align="center">
   <img width="550" height="350" alt="Screenshot 2025-04-18 163148" src="https://github.com/user-attachments/assets/702f3c1d-50c5-41c8-81dc-7623526038c2" />
 </p>
