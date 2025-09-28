@@ -41,20 +41,23 @@ Due to technical constraints, the game opens with the default language set to En
 
 However, if you would like to view the correct Arabic text rendering achieved in the prototype for the "Enter your name" prompt, you can manually change the default language by changing the following line of code (Line 165 in the code) to: current_language = "ar"
 
-# English Localised Menu Screen
+## Game Screenshots
+
+## English Localised Menu Screen
 <p align="center">
-  <img width="350" height="350" alt="Screenshot 2025-03-13 212100" src="https://github.com/user-attachments/assets/14e9660a-3047-44b8-ac3e-619df30d2630" />
+  <img width="550" height="350" alt="Screenshot 2025-03-13 212100" src="https://github.com/user-attachments/assets/14e9660a-3047-44b8-ac3e-619df30d2630" />
 </p>
 
-# Arabic Localised Menu Screen
+## Arabic Localised Menu Screen
 <p align="center">
-  <img width="350" height="350" alt="Screenshot 2025-04-18 163148" src="https://github.com/user-attachments/assets/702f3c1d-50c5-41c8-81dc-7623526038c2" />
+  <img width="550" height="350" alt="Screenshot 2025-04-18 163148" src="https://github.com/user-attachments/assets/702f3c1d-50c5-41c8-81dc-7623526038c2" />
 </p>
 
-# Leaderboard Screen
+## Leaderboard Screen
 <p align="center">
   <img width="597" height="341" alt="Screenshot 2025-04-08 195012" src="https://github.com/user-attachments/assets/f21bf5de-90de-4899-9a93-2ab795debad2" />
   </p>
 <p align="center">
   <img width="597" height="341" alt="Screenshot 2025-04-12 185036" src="https://github.com/user-attachments/assets/3d798546-e8d5-49b6-9687-27cb22af81d2" />
 </p>
+
