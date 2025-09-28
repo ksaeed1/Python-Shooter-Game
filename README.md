@@ -1,6 +1,6 @@
 # 2D Shooter Game Prototype
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/2b371721-181d-4498-b5b6-3b7e8f43530a" alt="Game Screenshot" width="320"/>
+  <img src="https://github.com/user-attachments/assets/2b371721-181d-4498-b5b6-3b7e8f43530a" alt="Game Screenshot" width="600"/>
 </p>
 
 ## Folder Structure
@@ -40,6 +40,7 @@ If you are using Sublime Text (preferred) or another IDE:
 Due to technical constraints, the game opens with the default language set to English. This is to ensure that non-Arabic speaking users can understand the "Enter your name" input prompt.
 
 However, if you would like to view the correct Arabic text rendering achieved in the prototype for the "Enter your name" prompt, you can manually change the default language by changing the following line of code (Line 165 in the code) to: current_language = "ar"
+
 
 
 
