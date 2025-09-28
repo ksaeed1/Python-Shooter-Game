@@ -1,6 +1,4 @@
-# Thesis Game Prototype; Student: Khadeejah Saeed; ID: 19220863.
-
-This repository contains the Arabic localised game prototype created for my dissertation.
+# Thesis Game Prototype
 
 ## Folder Structure
 
@@ -39,3 +37,4 @@ If you are using Sublime Text (preferred) or another IDE:
 Due to technical constraints, the game opens with the default language set to English. This is to ensure that non-Arabic speaking users can understand the "Enter your name" input prompt.
 
 However, if you would like to view the correct Arabic text rendering achieved in the prototype for the "Enter your name" prompt, you can manually change the default language by changing the following line of code (Line 165 in the code) to: current_language = "ar"
+
